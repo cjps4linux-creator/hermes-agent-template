@@ -1,12 +1,6 @@
 # Hermes Agent Template
 
-Reusable, versioned AI agent scaffold for Hermes-style systems.
-
-Designed around explicit agent contracts, bounded responsibilities, least-privilege tool access, layered memory, observable health, and tested failure handling — not roleplay prompts.
-
-**Based on:** Hermes Agent SDK patterns and production agent engineering standards
-
----
+Production-grade scaffold for designing, validating, and evolving AI agents with explicit contracts, bounded responsibilities, and observable behavior.
 
 ## What You Get
 
@@ -15,41 +9,53 @@ Designed around explicit agent contracts, bounded responsibilities, least-privil
 | `agent/agent.spec.md` | Mandatory agent contract template |
 | `agent/AGENT.md` | Runnable agent profile template |
 | `docs/checklist.md` | Pre-publishing agent checklist |
-| `docs/migration.md` | Adapter notes for common LLM backends |
+| `docs/migration.md` | Migration notes for common LLM backends |
 | `scripts/validate_agent_contract.py` | Contract linter |
 | `scripts/skeleton.sh` | New-agent scaffolding script |
-
----
 
 ## Quick Start
 
 ```bash
 cp agent/AGENT.md agents/your-agent/SOUL.md
 cp agent/agent.spec.md agents/your-agent/contract.md
-# Edit fields, run validation
 python scripts/validate_agent_contract.py agents/your-agent/contract.md
 ```
-
----
 
 ## Core Principles
 
 - One primary responsibility per agent
 - Explicit inputs, outputs, tool permissions, and failure modes
-- Memory by purpose: working, session, project, organizational
-- Observability: version, health, latency, tool usage
+- Layered memory: working, session, project, organizational
+- Observable health: version, health, latency, tool usage
 - Lifecycle states: draft → experimental → development → testing → production → deprecated → retired
-
----
 
 ## Who This Is For
 
-- Teams building multi-agent systems and needing stable contracts
+- Teams building multi-agent systems who need stable contracts
 - Engineers migrating prompt wrappers into production-grade agents
 - Founders who need repeatable agent design, not prompt roulette
-- Anyone who wants agents that fail predictably and are safe to operate
+- Operators who want agents that fail predictably and are safe to operate
 
----
+## Why It Fits Hermes
+
+Hermes runs on constrained hardware with zero cloud spend. This template keeps agents auditable, testable, and resource-aware — matching the rest of the platform.
+
+## Items In This Repo
+
+| File/Folder | Purpose |
+|-------------|---------|
+| `agent/AGENT.md` | Agent identity + execution profile |
+| `agent/agent.spec.md` | Formal contract schema |
+| `docs/checklist.md` | Publish + production promo checklist |
+| `docs/migration.md` | Migration notes from common frameworks |
+| `scripts/validate_agent_contract.py` | Contract validator |
+| `scripts/skeleton.sh` | Agent scaffold |
+
+## Troubleshooting
+
+- If validation fails, run with `--help` for rule list
+- If shell script fails on Windows, use Git Bash or WSL
+- If fields are missing, consult `docs/checklist.md`
 
 ## Services
 
@@ -61,11 +67,10 @@ python scripts/validate_agent_contract.py agents/your-agent/contract.md
 
 Terms: 50% upfront, 50% on delivery. Scope freeze required before start. Rush add-ons priced separately.
 
----
-
 ## License
 
-MIT — use, modify, and ship freely.  
-**Author:** Conrad CJ Wilson  
-**GitHub:** https://github.com/cjps4linux-creator  
+MIT — use, modify, and ship freely.
+
+**Author:** Conrad CJ Wilson
+**GitHub:** https://github.com/cjps4linux-creator
 **LinkedIn:** https://www.linkedin.com/in/conradcjwilson
