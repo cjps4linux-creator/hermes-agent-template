@@ -65,8 +65,6 @@ Hermes runs on constrained hardware with zero cloud spend. This template keeps a
 | Constrained-Infra Review | $297 | Resource usage review, memory budget reassessment, failure-mode review, recovery policy recommendations, Docker/runtime optimization notes |
 | Retainer | Custom | Weekly architecture/implementation support, priority async review, playbook updates |
 
-Terms: 50% upfront, 50% on delivery. Scope freeze required before start. Rush add-ons priced separately.
-
 ## License
 
 MIT — use, modify, and ship freely.
