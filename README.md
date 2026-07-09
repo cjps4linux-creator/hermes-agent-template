@@ -69,11 +69,9 @@ Hermes runs on constrained hardware with zero cloud spend. This template keeps a
 
 | Product | Price | Buy |
 |---------|-------|-----|
-| Hermes Agent Template | $37 | [Buy Now](https://www.paypal.com/ncp/payment/SXA9G9LUDBW2A) |
-| Hermes Bundle | $69 | [Buy Now](https://www.paypal.com/ncp/payment/ZYQT5ZQTWD78N) |
-| Constrained AI Stack — Starter Support | $97 | Contact support |
-| Hermes Agent Template — Audit | $197 | Contact support |
-| Constrained AI Stack | Free | [Download](https://github.com/cjps4linux-creator/constrained-ai-stack) |
+| Hermes Agent Template | $49 | [Buy Now](https://www.paypal.com/ncp/payment/ZYQT5ZQTWD78N) |
+| Hermes Bundle | $69 | [Buy Now](https://www.paypal.com/ncp/payment/SXA9G9LUDBW2A) |
+| Constrained AI Stack | $39 | [Buy Now](https://www.paypal.com/ncp/payment/FCZREAP49FXTN) |
 
 After payment, forward your PayPal confirmation to support to receive your files.
 
