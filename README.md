@@ -59,26 +59,19 @@ Hermes runs on constrained hardware with zero cloud spend. This template keeps a
 
 ## Services
 
-| Tier | Price | Deliverables |
-|------|-------|--------------|
-| Agent Health Audit | $197 | Contract review, failure taxonomy gap analysis, tool permission audit, observability review, improvement plan |
-| Constrained-Infra Review | $297 | Resource usage review, memory budget reassessment, failure-mode review, recovery policy recommendations, Docker/runtime optimization notes |
-| Retainer | Custom | Weekly architecture/implementation support, priority async review, playbook updates |
+| Tier | Deliverables |
+|------|--------------|
+| Agent Health Audit | Contract review, failure taxonomy gap analysis, tool permission audit, observability review, improvement plan |
+| Constrained-Infra Review | Resource usage review, memory budget reassessment, failure-mode review, recovery policy recommendations, Docker/runtime optimization notes |
+| Retainer | Weekly architecture/implementation support, priority async review, playbook updates |
 
-## Purchase
+## Licensing & Purchase
 
-| Product | Price | Buy |
-|---------|-------|-----|
-| Hermes Agent Template | $49 | [Buy Now](https://www.paypal.com/ncp/payment/ZYQT5ZQTWD78N) |
-| Hermes Bundle | $69 | [Buy Now](https://www.paypal.com/ncp/payment/SXA9G9LUDBW2A) |
-| Constrained AI Stack | $39 | [Buy Now](https://www.paypal.com/ncp/payment/FCZREAP49FXTN) |
-
-After payment, forward your PayPal confirmation to support to receive your files.
+Source is MIT-licensed. For commercial licensing, support bundles, or purchase, contact **conradcjwilson0@gmail.com**.
 
 ## License
 
 MIT — use, modify, and ship freely.
-
 **Author:** Conrad CJ Wilson
 **GitHub:** https://github.com/cjps4linux-creator
 **LinkedIn:** https://www.linkedin.com/in/conradcjwilson
