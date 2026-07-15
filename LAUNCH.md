@@ -1,23 +1,31 @@
 # Hermes Agent Template — Launch Documentation
 
 ## Launch Readiness Snapshot
-- Repo: `hermes-agent-template`
-- Default branch: `master`
-- License: MIT
-- Products: Hermes Agent Template / Audit / Bundle
-- Support contact: `conradcjwilson0@gmail.com`
 
-## Evidence
+| Field | Value |
+| --- | --- |
+| Repo | `hermes-agent-template` |
+| Default branch | `master` |
+| License | MIT |
+| Commercial baseline | CI, `CONTRIBUTING.md`, `SECURITY.md`, `LAUNCH.md`, `VERIFICATION.md` |
+| Products | Hermes Agent Template / Audit / Bundle |
+
+## Verified
 - `scripts/validate_agent_contract.py` present for contract validation
 - `agent/agent.spec.md` enforces contract-first agent design
 - README documents lifecycle, memory model, permissions, and failure taxonomy
-- Pricing tiers present in README
 
-## Assumptions
-- Consumer runs contract validator before publishing agents
-- Shell scaffolding requires Git Bash/WSL on Windows
+## Launch Gates
+- [ ] CI workflow green on `master` before release tag
+- [ ] Branch protection enabled on `master`
+- [ ] GitHub secret scanning and vulnerability alerts enabled
+- [ ] Package artifacts bundled and linked in README before customer delivery
 
-## Post-Launch Actions
-- Enable GitHub secret scanning and vulnerability alerts
-- Add branch protection after first public release tag
-- Maintain SECURITY.md and issue templates for bug reports
+## Release Workflow
+1. Update `README.md` and `LAUNCH.md` for the release version.
+2. Tag a release with semver: `git tag vX.Y.Z && git push --tags`.
+3. Attach deliverables to the GitHub release or support handoff.
+4. Rotate audit or support access credentials if shared externally.
+
+## Support
+- Support contact: `conradcjwilson0@gmail.com`
