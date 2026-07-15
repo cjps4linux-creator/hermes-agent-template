@@ -40,13 +40,13 @@ python scripts/validate_agent_contract.py agents/your-agent/contract.md
 
 Hermes runs on constrained hardware with zero cloud spend. This template keeps agents auditable, testable, and resource-aware — matching the rest of the platform.
 
-## Items In This Repo
+## Repo Contents
 
 | File/Folder | Purpose |
 |-------------|---------|
 | `agent/AGENT.md` | Agent identity + execution profile |
 | `agent/agent.spec.md` | Formal contract schema |
-| `docs/checklist.md` | Publish + production promo checklist |
+| `docs/checklist.md` | Publish + production readiness checklist |
 | `docs/migration.md` | Migration notes from common frameworks |
 | `scripts/validate_agent_contract.py` | Contract validator |
 | `scripts/skeleton.sh` | Agent scaffold |
