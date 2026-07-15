@@ -65,6 +65,18 @@ Hermes runs on constrained hardware with zero cloud spend. This template keeps a
 | Constrained-Infra Review | $297 | Resource usage review, memory budget reassessment, failure-mode review, recovery policy recommendations, Docker/runtime optimization notes |
 | Retainer | Custom | Weekly architecture/implementation support, priority async review, playbook updates |
 
+## Purchase
+
+| Product | Price | Notes |
+|---------|-------|-------|
+| Hermes Agent Template | $37 | Digital product |
+| Hermes Agent Template — Audit | $197 | Review + written report + 30-day follow-up |
+| Constrained AI Stack | Free | Self-hosted download |
+| Constrained AI Stack — Starter Support | $97 | 1-hour setup review + config audit + runbook |
+| Hermes Bundle | $69 | Digital bundle |
+
+Purchase is via PayPal. After payment, forward your PayPal confirmation to support to receive your files.
+
 ## License
 
 MIT — use, modify, and ship freely.
