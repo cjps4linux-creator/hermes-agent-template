@@ -23,6 +23,7 @@ def test_validator_reports_missing_section(tmp_path):
         [sys.executable, str(VALIDATOR), str(contract)],
         capture_output=True,
         text=True,
+        check=True,
     )
     assert result.returncode != 0
     combined = (result.stdout + result.stderr).lower()
@@ -58,5 +59,6 @@ def test_validator_passes_minimal_valid_contract(tmp_path):
         [sys.executable, str(VALIDATOR), str(contract)],
         capture_output=True,
         text=True,
+        check=True,
     )
     assert result.returncode == 0, result.stderr
