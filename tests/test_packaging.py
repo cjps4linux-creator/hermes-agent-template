@@ -19,7 +19,7 @@ def test_validator_requires_path_argument():
         [sys.executable, str(VALIDATOR)],
         capture_output=True,
         text=True,
-        check=True,
+        check=False,
     )
     assert result.returncode == 2
 
@@ -38,7 +38,7 @@ def test_validator_reports_missing_section(tmp_path):
         [sys.executable, str(VALIDATOR), str(contract)],
         capture_output=True,
         text=True,
-        check=True,
+        check=False,
     )
     assert result.returncode == 1
     assert "missing" in (result.stdout + result.stderr).lower()
